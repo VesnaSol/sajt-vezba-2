@@ -10,7 +10,7 @@ body {
 }
 
 .wrap {
-	background: linear-gradient(to bottom, rgb(150, 150, 150), rgb(30, 30, 30)), url('../images/background.jpg') no-repeat;
+	background: linear-gradient(to bottom, rgb(150, 150, 150), rgb(30, 30, 30)), url("../images/background.jpg") no-repeat;
 	/*background-size: cover;*/
 	min-height: 100vh;
 	padding: 30px;
@@ -89,6 +89,7 @@ p a {
 .main {
 	position: relative;
 	top: 40px;
+	bottom: 20px;
 }
 
  /* //////  PESMA     ////  */
@@ -101,3 +102,13 @@ p a {
 	top: 30px;
 	/*background: #eeeb;*/
 }
+
+.image {
+	margin-left: 50px;
+	width: 200px;
+}
+
+img {
+	/*max-width: 100%;*/
+}
+
