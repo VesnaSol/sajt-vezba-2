@@ -6,27 +6,26 @@
 
 body {
 	/*background-color: #000;*/
-	font-family: Ubuntu, Century Gotic, Helvetica, sans-serif;
+	font-family: Ubuntu, "Century Gotic", Helvetica, sans-serif;
 }
 
 .wrap {
-	background: linear-gradient(to bottom, rgb(150, 150, 150), rgb(30, 30, 30)), url("../images/background.jpg") no-repeat;
+	background: linear-gradient(to bottom, rgb(150, 150, 150), rgb(30, 30, 30)), url("background.jpg") no-repeat;
 	/*background-size: cover;*/
 	min-height: 100vh;
 	padding: 30px;
-
 }
 
 header {
 	display: flex;
 	/*align-content: ; */
-
 }
 
-h1, h2, p, .poem {
+h1, h2, .primeri {
 	background-color: #fffd;
-	/*background: content;  kako da pozadina prati samo sadrzaj blok elementa, tj da se ne pruza do kraja bloka?	*/
-	padding: 5px;
+	/*background: ;  kako da pozadina prati samo sadrzaj blok elementa, tj da se ne pruza do kraja bloka?	*/
+	display: inline-block;  /* ovako! samo moram da prebacim svaki od ovih elemenata u novi red, putem <br> ili da svaki stavim u poseban <div> */
+	padding: 5px 3px;
 
 }
 
@@ -42,9 +41,8 @@ header h2 {
 	font-size: 90%;
 }
 
-p {
+.primeri {
 	margin: 10px 20px;
-	/*margin-left: 20px;*/
 	font-variant: small-caps;
 }
 
@@ -92,23 +90,43 @@ p a {
 	bottom: 20px;
 }
 
+/*.main h1, .main h2, .main p {
+	border-radius: 5px;
+}*/
+
  /* //////  PESMA     ////  */
 
 .poem {
-	margin: 0 auto;
-	width: 200px;
-	position: relative;
-	left: -270px;
-	top: 30px;
-	/*background: #eeeb;*/
+	/*margin: 0 auto;*/
+	width: 300px;
+	/*position: relative;*/
+	/*left: -270px;*/
+	/*top: 20px;*/
+	background: #eeeb;
+	padding: 10px 20px;
+	line-height: 2;
+    margin: 20px 100px 70px;
 }
 
+
+/*//// SLIKA ////*/
+
 .image {
-	margin-left: 50px;
-	width: 200px;
+	margin: 20px 150px 70px;
+	
+	width: 500px;
+	/*text-align: center;*/
+	
 }
 
 img {
-	/*max-width: 100%;*/
+	max-width: 100%;
+    padding: 20px;
+    background: #eeeb;
+}
+
+.video {
+	margin: 0 auto;
+	width: 640px;
 }
 
