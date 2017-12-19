@@ -10,7 +10,7 @@ body {
 }
 
 .wrap {
-	background: linear-gradient(to bottom, rgb(150, 150, 150), rgb(30, 30, 30)), url("background.jpg") no-repeat;
+	background: linear-gradient(to bottom, rgb(150, 150, 150), rgb(30, 30, 30)), url("../img/background.jpg") no-repeat;
 	/*background-size: cover;*/
 	min-height: 100vh;
 	padding: 30px;
