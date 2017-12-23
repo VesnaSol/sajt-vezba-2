@@ -76,8 +76,9 @@ nav a:hover {
 	text-decoration: underline;
 }
 
-nav a:checked {
-	color: #aaa;
+.selected {
+	color: #fff;
+	text-decoration: none;
 }
 
 p a {
