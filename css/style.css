@@ -40,6 +40,7 @@ header h2 {
 	background-color: #eeeb;
 	font-style: italic;
 	font-size: 90%;
+	font-weight: 400;
 }
 
 .primeri {
@@ -111,7 +112,7 @@ nav a:hover {
 .poemOuter {
 	margin: 0 auto;
 	max-width: 350px;
-	width: 100%;
+	/*width: 100%;*/
 	position: relative;
 	/*left: -200px;*/
 	/*background-color: #eeeb;
@@ -138,7 +139,7 @@ nav a:hover {
 	top: 20px;
 	left: 0;
 	max-width: 350px;
-	width: 100%;
+	/*width: 100%;*/
 	margin: 0 auto;
 	z-index: -1;
 	height: 90%;
@@ -174,17 +175,15 @@ img {
 .video p {
 	color: #ccc;
 	font-weight: 400;
+	background-color: #111a;
+    display: inline-block;
+    padding: 5px 3px;
 }
 
 .video a {
 	text-decoration: none;
 }
 
-.video p {
-	background-color: #111a;
-    display: inline-block;
-    padding: 5px 3px;
-}
 
 /*.audio {
 	margin: 20px auto 70px;
