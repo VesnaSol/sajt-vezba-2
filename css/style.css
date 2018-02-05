@@ -27,12 +27,12 @@ h1, h2, .primeri {
 	/*background: ;  kako da pozadina prati samo sadrzaj blok elementa, tj da se ne pruza do kraja bloka?	*/
 	display: inline-block;  /* ovako! samo moram da prebacim svaki od ovih elemenata u novi red, putem <br> ili da svaki stavim u poseban <div> */
 	padding: 5px 3px;
-
 }
 
 h1, h2 {
 	text-transform: uppercase;
 	margin: 20px;
+	font-weight: 500;
 }
 
 header h2 {
@@ -84,14 +84,16 @@ nav a:hover {
 
 .primeri a {
 	padding-left: 10px;
-	color: #000099;
+	color: #6A007D;
 	text-decoration: none;
+	font-weight: 500;
+	letter-spacing: -0.02em;
+	font-size: 110%;
 }
 
 .primeri a:hover {
-	font-weight: 500;
-	/*text-shadow: 0 0 1px;*/
-	color: #6A2382;
+	font-weight: 700;
+	color: #050574;
 }
 
 .main {
@@ -173,8 +175,15 @@ img {
 	color: #ccc;
 	font-weight: 400;
 }
+
 .video a {
 	text-decoration: none;
+}
+
+.video p {
+	background-color: #111a;
+    display: inline-block;
+    padding: 5px 3px;
 }
 
 /*.audio {
