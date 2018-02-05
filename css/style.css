@@ -85,7 +85,7 @@ nav a:hover {
 
 .primeri a {
 	padding-left: 10px;
-	color: #6A007D;
+	color: #562A82;
 	text-decoration: none;
 	font-weight: 500;
 	letter-spacing: -0.02em;
@@ -170,6 +170,7 @@ img {
 	margin: 20px auto 70px;
 	/*width: 640px;*/
 	width: 80%;
+	height: auto;
 }
 
 .video p {
@@ -182,6 +183,7 @@ img {
 
 .video a {
 	text-decoration: none;
+	color: #663399;
 }
 
 
