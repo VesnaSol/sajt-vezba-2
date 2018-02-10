@@ -76,14 +76,14 @@ nav a:hover {
 	text-decoration: underline;
 }
 
-/*@media only screen and (max-width: 900px;) {
+@media only screen and (max-width: 900px;) {
 	nav li {
-		display: list-item;
+		display: initial;
 		list-style: none;
 	}
 	
 }
-NE KUZIM STA NE STIMA... PRORADI...*/
+/*NE KUZIM STA NE STIMA... PRORADI...*/
 
 
 .selected {
@@ -110,6 +110,7 @@ NE KUZIM STA NE STIMA... PRORADI...*/
 	top: 40px;
 	/*bottom: 20px;*/
 }
+
 
  /* //////  PESMA     ////  */
 
@@ -179,3 +180,55 @@ iframe {
     width: 100%;
 }
 
+
+/* //// FOOTER //// */
+
+footer {
+	width: 100%;
+	position: absolute;
+	bottom: 5px;
+	left: 0;
+	color: #ccc;
+	display: flex;
+}
+
+.author, .icons {
+	flex: 1;
+	background-color: #111a;
+	margin: 20px;
+}
+
+
+/*.clearfix:after {       OVO JE U SLUCAJU DA SE KOTISTI FLOAT
+	content: "";
+	display: table;
+	clear: both;
+}
+ .author {
+ 	float: left;
+ }
+
+ .icons {
+ 	float: right;
+ }*/
+
+footer img {
+	background: transparent;
+	padding: 10px;
+}
+
+.sign, .rights {
+	/*display: inline-block;*/
+	float: left;
+}
+.rights {
+	/*padding-bottom: 30px;*/
+    /*max-width: 50%;*/
+}
+/*.sign {
+	padding: 0;
+}*/
+
+.icons a {
+	/*display: block;*/
+}
