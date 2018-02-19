@@ -76,9 +76,9 @@ nav a:hover {
 	text-decoration: underline;
 }
 
-@media only screen and (max-width: 900px;) {
+@media (max-width: 900px;) {
 	nav li {
-		display: initial;
+		display: block;
 		list-style: none;
 	}
 	
