@@ -175,6 +175,22 @@ img {
 	color: #562A82;
 }
 
+.video-aspect-ratio {
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 35px;
+	height: 0;
+	overflow: hidden;
+}
+
+.video-aspect-ratio iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
 iframe {
 	padding: 20px;
     background: #eeeb;
