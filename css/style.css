@@ -35,6 +35,13 @@ h1, h2 {
 	font-weight: 500;
 }
 
+/*h1::after, h2::after, .primeri::after {
+	content: '';
+	display: block;
+}    
+--->  NE RADI; PROBALA SAM DA IZBEGNEM <br>, da predje u drugi red samo pomocu css-a, 
+bez natrpavanja html-a  */
+
 header h2 {
 	margin-left: 10px;
 	background-color: #eeeb;
