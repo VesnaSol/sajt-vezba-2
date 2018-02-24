@@ -44,7 +44,9 @@ bez natrpavanja html-a  */
 
 header h2 {
 	margin-left: 10px;
-	background-color: #eeeb;
+	/*background-color: #eeeb;*/
+	background-color: #111a;
+	color: #ccc;
 	font-style: italic;
 	font-size: 90%;
 	font-weight: 400;
