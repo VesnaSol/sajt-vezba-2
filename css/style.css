@@ -87,12 +87,12 @@ nav a:hover {
 	text-decoration: underline;
 }
 
-/* @media (max-width: 860px) {
+@media (max-width: 500px) {
 	nav li {
 		display: block;
 		list-style: none;
 	}
-} */
+}
 
 .selected {
 	color: #fff;
