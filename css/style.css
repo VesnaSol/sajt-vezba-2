@@ -29,18 +29,18 @@ h1, h2, .primeri {
 	padding: 5px 3px;
 }
 
-h1, h2 {
-	text-transform: uppercase;
-	margin: 20px;
-	font-weight: 500;
-}
-
 /*h1::after, h2::after, .primeri::after {
 	content: '';
 	display: block;
 }    
 --->  NE RADI; PROBALA SAM DA IZBEGNEM <br>, da predje u drugi red samo pomocu css-a, 
 bez natrpavanja html-a  */
+
+h1, h2 {
+	text-transform: uppercase;
+	margin: 20px;
+	font-weight: 500;
+}
 
 header h2 {
 	margin-left: 10px;
@@ -87,15 +87,12 @@ nav a:hover {
 	text-decoration: underline;
 }
 
-@media (max-width: 900px;) {
+/* @media (max-width: 860px) {
 	nav li {
 		display: block;
 		list-style: none;
 	}
-	
-}
-/*NE KUZIM STA NE STIMA... PRORADI...*/
-
+} */
 
 .selected {
 	color: #fff;
